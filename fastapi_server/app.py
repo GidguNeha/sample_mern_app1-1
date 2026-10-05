@@ -1,4 +1,6 @@
 from fastapi import FastAPI
+from models import Student,Staff
+from database import student_collection, staff_collection
 from pydantic import BaseModel
 class Student(BaseModel):
     name:str
