@@ -15,7 +15,7 @@ def getStudents():
 @app.post("/register")
 def register(stu:Student):
     return stu
-@app.put("/update")
+@app.put("/update") 
 def updateprofile():
     return "update profile called"
 @app.delete("/delete")
